@@ -9,5 +9,5 @@
 <img src='https://github.com/Attriumph/2019-Web-Developement/blob/master/image/tracerouter.png' width="100%">
 
 # WWW VS Internet
-- Internet cames first, but the communication betweeen computers was hard.  - a cellphone 
-- Hence, the WWW was invented to easy the communication. WWW can be viewed as a language.  - an app
+- Internet cames first, but the communication betweeen computers was hard.  - Internet can be viewed as a cellphone 
+- Hence, the WWW was invented to easy the communication. WWW can be viewed as a language.  - WWW can be viewed as an app in cellphone
