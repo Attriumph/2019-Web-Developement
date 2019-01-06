@@ -3,6 +3,7 @@
 ### Notes:
 
 * cascading means that it always takes the selector that is at the end.
+* in box model, width and height are for content
 
 ## Color 
 
@@ -24,4 +25,23 @@
   * Specificity: how specific is your selector -- we can use speficicity calculator
   * Importance:
   * Source order: link source order
+
+## Font
+
+* for font-family, if the name is mutiple words, we need use qutation marks.
+* common attributes: line-height, font-style, font-weight, font-family
+* Ways to  make sure that a user always sees the same font on a website:
+  - 1. One way is to actually include a font file that you have on your computer with all your website files.
+  - 2. use google font
+
+## Critical Render Path
+
+## Flexbox
+
+* Good way to pratice it :http://flexboxfroggy.com/
+
+## CSS3 
+
+- Transition and transforom: Good place to learn](https://robots.thoughtbot.com/transitions-and-transforms)
+- Place to see attributes if support can be found [browser support]( https://www.w3schools.com/csSref/css3_browsersupport.asp) and [can I use](https://www.w3schools.com/csSref/css3_browsersupport.asp)
 
