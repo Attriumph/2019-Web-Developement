@@ -45,3 +45,31 @@
 - Transition and transforom: Good place to learn](https://robots.thoughtbot.com/transitions-and-transforms)
 - Place to see attributes if support can be found [browser support]( https://www.w3schools.com/csSref/css3_browsersupport.asp) and [can I use](https://www.w3schools.com/csSref/css3_browsersupport.asp)
 
+## CSS Grid 
+1. Common properties for container:
+    use "display: grid;" in container
+    - grid-gap: 20px;
+    - grid-template-columns: 300px 300px 300px;
+    - grid-template-columns: 300px 300px 300px;
+    - grid-template-columns: 300px 300px 1fr;
+    - grid-template-columns: 300px 1fr 1fr;
+    - grid-template-columns: 1fr 1fr 1fr;
+    - grid-template-columns: repeat(3, 1fr); /*how many times to repeat what*/
+    - grid-template-columns: auto 1fr 1fr; /*auto = max size of content*/
+    - grid-template-rows: 1fr 1fr 1fr;
+    - grid-template-columns: repeat(auto-fill, 200px); 
+    - grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    - justify-items: end;
+    - align-items: end;
+2. Common properties for chidren
+    
+    - grid-column: span 2; /*high number will cause it to create extra grids even if we didn't tell it*/
+    - grid-row: span 2;
+    - grid-column-start: 2;
+    - grid-column-end: 4;
+    - grid-column: 2 / 4;
+    - grid-column: 2 / -1; /* span it to the last track */
+    - grid-row: 2 / -1; /*but you need to define rows in the container*/
+    - justify-self: end;
+    - align-self: end;
+[Good link](http://grid.malven.co/)
