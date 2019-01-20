@@ -23,6 +23,13 @@
 
 * Three things affect which seletor win out in the cascade:
   * Specificity: how specific is your selector -- we can use speficicity calculator
+        CSS Specificity Scoring
+         inline style > inner style > external style
+            score distribution:
+            - HTML tag Element - One
+            - Class - Ten
+            - ID - Hundred
+            - Inline Styles - Thousand
   * Importance:
   * Source order: link source order
 
